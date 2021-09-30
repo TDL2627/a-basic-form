@@ -9,16 +9,15 @@ h1{
 }
 form{
     align-items: center;
+    width: 100%;
     background: rgba( 7, 7, 7, 0.7 );box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );backdrop-filter: blur( 4px );-webkit-backdrop-filter: blur( 4px );border-radius: 10px;border: 1px solid rgba( 255, 255, 255, 0.18 );
-    margin-left: 35%;
+    /* margin-left: 35%;
     margin-right: 35%;
     margin-top:5%;
-    margin-bottom:5%;
+    margin-bottom:5%; */
     border: black;
-    padding-left: 50px;
-    padding-bottom: 20px;
-    padding-top: 10px;
-    padding-right: 50px;
+    align-self: center;
+    text-align: center;
     
 }
 #rbut{
@@ -35,4 +34,8 @@ label,h3{
 }
 legend{
     color:white;
+    width: fit-content;
+}
+fieldset{
+    width: fit-content;
 }
